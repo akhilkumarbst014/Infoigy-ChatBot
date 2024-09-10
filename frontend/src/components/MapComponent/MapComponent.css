@@ -1,0 +1,16 @@
+.map-container {
+    position: relative;
+    height: 400px; /* Adjust the height as needed */
+    width: 100%;   /* Full width of the parent container */
+    max-width: 600px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the map horizontally */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow to ensure clean edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a subtle 3D effect */
+  }
+  
+  #map {
+    height: 100%;
+    width: 100%;
+  }
+  
